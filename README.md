@@ -25,7 +25,7 @@ Detail Page
 
 
 Step:
-1. Choose color 
+1. Choose colors 
 2. React router setup for routing
    We use react router for client side routing
    - Always setup react router on landing js(App.js)
