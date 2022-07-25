@@ -24,7 +24,7 @@ Detail Page
 
 
 
-Steps:
+Step:
 1. Choose color 
 2. React router setup for routing
    We use react router for client side routing
