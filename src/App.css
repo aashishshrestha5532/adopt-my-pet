@@ -1,34 +1,66 @@
 .App {
   text-align: center;
   height: 100vh;
-  margin: 0px;
-  
+}
+
+.body {
+  margin-bottom: 20px;
 }
 
 .app_header {
+  top: 0;
+  z-index: 1;
   max-height: 80px;
-  background-color: #748DA6;
+  width: 100%;
+  background-color: white;
   display: flex;
   flex-direction: row;
-  margin-bottom: 1px solid #657b91;
+  border-bottom: 0.1px solid #657b91;
+  background-color: #748DA6;
+  position: sticky;
 }
 
 .app_headerWrapper{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  
+}
+
+.header_title {
+  color: white;
+  margin-left: 10px;
 }
 
 .app_headerImage{
   max-height: 70px;
-  max-width: 60px;
   margin-left: 100px;
-  padding: 1px;
+  padding: 5px;
+  object-fit: contain;
 }
 
+.search_input{
+  padding-inline-start: 20px;
+  font-family: inherit;
+  font-size: inherit;
+  border: 0.3px solid #748DA6;
+  border-radius: 5px;
+  margin: 10px;
+  min-width: 250px;
+  min-height: 35px;
+  margin-left: 100px;
+  box-sizing: border-box;
+}
 .cover{
   min-width: 100%;
+  margin-top: 5px;
+  object-fit: cover;
+  
 }
 
+.coverImage{
+  min-width: 100%;
+}
 .category{
   margin-top: 30px;
   display: flex;
@@ -37,13 +69,48 @@
   
 }
 
-h2{
+h3{
   text-align: left;
+  margin-left: 100px;
 }
 
 .new_petList{
+  max-width: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  
 }
 
+.postWrapper{
+  border: 0.3px solid lightblue;
+  justify-content: center;
+  max-width: 500px;
+  max-height: 600px;
+  margin-left: 100px;
+  
+  border-radius: 4px;
+}
+
+.imageWrapper{
+  width: 200px;
+  height: 250px;
+  
+}
+
+.postImage{
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.pet_info{
+  padding: 10px;
+}
+.petBreed {
+  font-weight: 700;
+}
+
+.petAge {
+  font-size: small;
+}

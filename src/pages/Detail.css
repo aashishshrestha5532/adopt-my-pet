@@ -1,0 +1,50 @@
+.dog_detail{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px
+    ;
+}
+
+.body{
+    margin-left: 10px;
+}
+
+.detail_wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 0.3px solid lightblue;
+    border-radius: 5px;
+}
+
+.dog_image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.dog_info{
+    padding-top: 10px;
+    margin-left: 60px;
+    padding-right: 5px;
+    text-align: left;
+}
+
+.dogBreed{
+font-size: large;
+font-weight: 500;
+}
+
+.dogAge{
+  font-size: large;
+  font-weight: 400;
+}
+
+.dogInfo{
+    font-size: large;
+    font-weight: 400;
+}
+
+li.left {
+    text-align: left;
+}
