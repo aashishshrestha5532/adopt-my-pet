@@ -83,6 +83,7 @@ h3{
 }
 
 .postWrapper{
+  cursor: pointer;
   border: 0.3px solid lightblue;
   justify-content: center;
   max-width: 500px;
