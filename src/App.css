@@ -5,6 +5,7 @@
 
 .body {
   margin-bottom: 20px;
+  overflow: hidden;
 }
 
 .app_header {
@@ -37,6 +38,7 @@
   margin-left: 100px;
   padding: 5px;
   object-fit: contain;
+    cursor: pointer;
 }
 
 .search_input{
@@ -75,22 +77,36 @@ h3{
 }
 
 .new_petList{
-  max-width: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   
+  /* max-width: 50px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  /* overflow-x: scroll; */
+}
+
+.petList {
+  display: flex;
+  float: left;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .postWrapper{
   cursor: pointer;
-  border: 0.3px solid lightblue;
+  /* border: 0.3px solid lightblue; */
   justify-content: center;
   max-width: 500px;
   max-height: 600px;
   margin-left: 100px;
   
   border-radius: 4px;
+  transition: transform .2s ease-in-out
+}
+
+.postWrapper:hover {
+    transform: scale(1.05);
+  animation: transform 5s linear 2s ;
 }
 
 .imageWrapper{
@@ -114,4 +130,19 @@ h3{
 
 .petAge {
   font-size: small;
+}
+
+.leftArrow {
+  position: absolute;
+  left: -50px;
+  top:90px;
+  color:"#000",
+
+}
+
+.rightArrow {
+  position: absolute;
+  right:-81px;
+  top:90px; 
+  color:"#000"
 }

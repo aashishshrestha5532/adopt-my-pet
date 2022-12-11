@@ -1,7 +1,6 @@
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
-
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
+import Header from '../components/Header';
+import { useState, useEffect } from 'react';
 
 const Pets = [
 	{
@@ -24,7 +23,7 @@ const Pets = [
 	}
 ];
 
-const Category = ({ title }) => {
+const Category = ({ title,data }) => {
 	const navigate = useNavigate();
 
 	const navigateToDetail = (id) => {
@@ -34,9 +33,9 @@ const Category = ({ title }) => {
 	return (
 		<div>
 			<h3 style={{ color: '#748DA6' }}>{title}</h3>
-			<div className="new_petList">
-				{Pets.map((pet) => (
-					<div className="postWrapper" onClick={() => navigateToDetail(pet.breed)}>
+			<div className="petList">
+				{data.map((pet) => (
+					<div className="postWrapper" onClick={() => navigateToDetail(pet.id)}>
 						<div className="imageWrapper">
 							<img src={pet.url} alt="Image Cover" className="postImage" />
 						</div>
@@ -53,20 +52,28 @@ const Category = ({ title }) => {
 };
 
 function Categories() {
+
+	const {type} = useParams();
+
+	console.log('type',type);
+	const [data,setdata]= useState([])
+	useEffect(() => {
+
+		fetch(`http://localhost:3001/pets?category=${type}`).then((response) => response.json())
+		  .then((data) => setdata(data));
+		
+	},[type])
+	// http://localhost:3001/pets?category=${type}
+
+	console.log(data)
 	return (
 		<div className="App">
-			<div className="app_header">
-				<div className="app_headerWrapper">
-					<img className="app_headerImage" src={process.env.PUBLIC_URL + '/petdot_logo.png'} alt="" />
-					<label className="header_title">PetDot</label>
-					<input type="text" placeholder="Search" className="search_input" />
-				</div>
-			</div>
+			<Header/>
 
 			<div className="body">
-				<Category title={'Newly Added Dogs'} />
-				<Category title={'Rare Dogs'} />
-				<Category title={'Pug'} />
+				<Category title={`Newly Added ${type}`} data={data} />
+				{/* <Category title={'Rare Dogs'} />
+				<Category title={'Pug'} /> */}
 			</div>
 		</div>
 	);

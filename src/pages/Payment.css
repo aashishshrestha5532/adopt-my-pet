@@ -1,0 +1,17 @@
+.esewa {
+  transition: transform 0.2s ease-in-out;
+}
+
+.esewa:hover {
+  transform: scale(1.1);
+  animation: transform 5s linear 2s;
+}
+
+.khalti {
+  transition: transform 0.2s ease-in-out;
+}
+
+.khalti:hover {
+  transform: scale(1.1);
+  animation: transform 5s linear 2s;
+}

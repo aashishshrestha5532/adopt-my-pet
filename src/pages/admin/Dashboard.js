@@ -1,9 +1,9 @@
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
-import Header from "../components/Header";
+import Header from "../../components/Header";
 import { useEffect, useState } from "react";
-import { storeValue, getValue } from "../utils/storage";
+import { storeValue, getValue } from "../../utils/storage";
 
 const Category = ({ title }) => {
   const navigate = useNavigate();
@@ -39,7 +39,6 @@ const Category = ({ title }) => {
   };
 
   const onAddCart = (category) => {
-
     const alreadyAddedCarts = carts || [];
 
     const existedItem = alreadyAddedCarts.find((item) => item.category.breed);
@@ -74,9 +73,13 @@ const Category = ({ title }) => {
                 <label className="petBreed">{pet.breed}</label>
                 <br />
                 <label className="petAge">{pet.age}</label>
-              </div>
+                <br />
 
-              <button onClick={() => onAddCart(pet)}>Add to cart</button>
+                <label className="petAge">Category: <b>{pet.category}</b></label> <br />
+                <label  className="petAge" >Color: <b>{pet.color}</b></label>
+                <br /> <br />
+                <button onClick={() => alert(`${pet.breed} is approved`)}>Approve</button>
+              </div>
             </div>
           ))
         )}
@@ -90,38 +93,7 @@ function Home() {
   return (
     <div className="App">
       <Header />
-      <div className="cover">
-        <img
-          src={process.env.PUBLIC_URL + "/cover.jpg"}
-          alt=""
-          className="coverImage"
-        />
-      </div>
-      <div className="category">
-        <Stack spacing={8} direction="row">
-          <Button
-            variant="outlined"
-            size="large"
-            onClick={() => {
-              navigate("/categories/dog");
-            }}
-          >
-            Dogs
-          </Button>
-          <Button
-            variant="outlined"
-            size="large"
-            onClick={() => {
-              navigate("/categories/cat");
-            }}
-          >
-            Cats
-          </Button>
-          <Button variant="outlined" size="large">
-            Other Pets
-          </Button>
-        </Stack>
-      </div>
+
       <div className="body">
         <Category title={"Newly Added Pets"} />
 

@@ -5,7 +5,8 @@
       "slug": "labdator_retriever",
       "breed": "Labrador Retriever",
       "age": "6 months",
-      "category":"dog",
+      "category": "dog",
+      "isNew": true,
       "similar_pets": [
         {
           "id": "pug",
@@ -39,61 +40,61 @@
       ],
       "url": "https://images.unsplash.com/photo-1561495376-dc9c7c5b8726?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFicmFkb3IlMjByZXRyaWV2ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     },
-
     {
       "id": "lbr1",
       "slug": "labdator_retriever_1",
       "breed": "Labrador Retriever",
       "age": "3 months",
-      "category":"dog",
-      "color":"orange",
+      "category": "dog",
+      "color": "orange",
       "description": [
         "White and orange mixed color",
         "Gentle in behaviour",
         "A well-trainded pup"
       ],
-      "url":"https://images.unsplash.com/photo-1554456854-55a089fd4cb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFicmFkb3IlMjByZXRyaWV2ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
-
+      "isNew": true,
+      "url": "https://images.unsplash.com/photo-1554456854-55a089fd4cb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFicmFkb3IlMjByZXRyaWV2ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
     },
     {
       "id": "lbr2",
       "slug": "labdator_retriever_2",
       "breed": "Labrador Retriever",
       "age": "4 months",
-      "category":"dog",
-      "color":"black",
+      "category": "dog",
+      "color": "black",
       "description": [
         "Black and brown mixed color",
         "Gentle in behaviour",
         "A well-trainded pup"
       ],
-      "url":"https://images.unsplash.com/photo-1552575595-38bfbd75841a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bGFicmFkb3IlMjByZXRyaWV2ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+      "url": "https://images.unsplash.com/photo-1552575595-38bfbd75841a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bGFicmFkb3IlMjByZXRyaWV2ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
     },
     {
       "id": "lbr3",
       "slug": "labdator_retriever_3",
       "breed": "Labrador Retriever",
       "age": "4.5 months",
-      "category":"dog",
-      "color":"brown",
+      "category": "dog",
+      "color": "brown",
       "description": [
         "Red and brown mixed color",
         "Gentle in behaviour",
         "A well-trainded pup"
-      ], 
-      "url":"https://images.unsplash.com/photo-1560150844-220a5b58df38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxhYnJhZG9yJTIwcmV0cmlldmVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
+      ],
+      "url": "https://images.unsplash.com/photo-1560150844-220a5b58df38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxhYnJhZG9yJTIwcmV0cmlldmVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
     },
     {
       "id": "pug",
       "slug": "pug",
       "breed": "Pug",
       "age": "3 months",
-      "category":"dog",
+      "category": "dog",
       "description": [
         "White and brown mixed color",
         "Gentle in behaviour",
         "A well-trainded pup"
       ],
+      "isNew": true,
       "url": "https://images.unsplash.com/photo-1587245976235-8967aa9277a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHVnJTIwZG9nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
     },
     {
@@ -101,77 +102,79 @@
       "slug": "pug1",
       "breed": "Pug",
       "age": "2 months",
-      "category":"dog",
+      "category": "dog",
       "description": [
         "Black mixed color",
         "Very cute in behavior",
         "A well-trainded pup"
       ],
-      "url":"https://images.unsplash.com/photo-1575425186775-b8de9a427e67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+      "url": "https://images.unsplash.com/photo-1575425186775-b8de9a427e67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
     },
     {
       "id": "pug2",
       "slug": "pug2",
       "breed": "Pug",
       "age": "6 months",
-      "category":"dog",
+      "category": "dog",
       "description": [
         "Brown color",
         "Very cute in behavior"
       ],
-      "url":"https://images.unsplash.com/photo-1568807486303-a8f9c2ce6221?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=80"
+      "url": "https://images.unsplash.com/photo-1568807486303-a8f9c2ce6221?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=80"
     },
     {
       "id": "shepard",
       "slug": "shepard",
       "breed": "German Shepard",
       "age": "3 months",
-      "category":"dog",
+      "category": "dog",
       "description": [
         "Brown and black mixed color",
         "Very gentle in behavior"
       ],
-      "url":"https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1367&q=80"
+      "isNew": true,
+      "url": "https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1367&q=80"
     },
     {
       "id": "shepard2",
       "slug": "shepard2",
       "breed": "German Shepard",
       "age": "3 months",
-      "category":"dog",
+      "category": "dog",
       "description": [
         "Red Brown and black mixed color",
         "Very gentle in behavior"
       ],
-      "url":"https://images.unsplash.com/photo-1613656741959-70b2eaeb6db8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=962&q=80"
+      "url": "https://images.unsplash.com/photo-1613656741959-70b2eaeb6db8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=962&q=80"
     },
     {
       "id": "shepard3",
       "slug": "shepard3",
       "breed": "German Shepard",
       "age": "3.5 months",
-      "category":"dog",
+      "category": "dog",
       "description": [
         "Red Brown and black mixed color",
         "Very gentle in behavior"
       ],
-      "url":"https://images.unsplash.com/photo-1605725657590-b2cf0d31b1a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2VybWFuJTIwc2hlcGhlcmQlMjBkb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+      "url": "https://images.unsplash.com/photo-1605725657590-b2cf0d31b1a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2VybWFuJTIwc2hlcGhlcmQlMjBkb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
     },
     {
       "id": "shepard4",
       "slug": "shepard4",
       "breed": "German Shepard",
       "age": "5 months",
-      "category":"dog",
+      "category": "dog",
       "description": [
         "Red Brown and black mixed color",
         "Very gentle in behavior"
       ],
-      "url":"https://images.unsplash.com/photo-1621951714491-3cde56a9cadf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z2VybWFuJTIwc2hlcGhlcmQlMjBkb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+      "isNew": true,
+      "url": "https://images.unsplash.com/photo-1621951714491-3cde56a9cadf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z2VybWFuJTIwc2hlcGhlcmQlMjBkb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
     },
     {
       "id": "cat",
-      "category":"cat",
+      "category": "cat",
       "slug": "leopard_cat",
       "breed": "Leopard Cat",
       "age": "1 month",
@@ -181,8 +184,59 @@
         "very well trained"
       ],
       "url": "https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "slug": "test",
+      "breed": "cat",
+      "age": "3 month",
+      "category": "cat",
+      "url": "",
+      "id": "Q7ArCzf"
     }
   ],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" }
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "test": [],
+  "users": [
+    {
+      "email": "ashish@gmail.com",
+      "password": "$2a$10$E244EqrM.EYUvTJup3oMT.6d.lGJg.YF6qsp2azUExMZrjlV/VXpC",
+      "firstname": "Ashish",
+      "lastname": "Shrestha",
+      "username": "elton_aasis",
+      "id": 1
+    },
+    {
+      "email": "rajeshwory@gmail.com",
+      "password": "$2a$10$hKyajgsPPGnUpi6vUeB52eiGZTSkQUtZMvXHyWeKeHuzMjbtu6rJq",
+      "firstname": "Rajeshwory",
+      "lastname": "Shrestha",
+      "username": "rajeshwory",
+      "id": 2
+    },
+    {
+      "email": "ritika@gmail.com",
+      "password": "$2a$10$Sg/AguWIVgaHYdsw2I9Ra.xowVhD3YoEhNpgz3haYaGTJQZBPUpqa",
+      "firstname": "Ritika",
+      "lastname": "Shrestha",
+      "username": "ritika",
+      "id": 3
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$zK2x8tb/M80xhvmWHIKLc.xQqexSG4K.SVatF3i.2ouWm5GK5LTD6",
+      "firstname": "Admin",
+      "lastname": "Admin",
+      "username": "admin",
+      "id": 4
+    }
+  ]
 }
